@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO-DO LIST</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/mediaquery.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <main class="main-container">
+      <nav class="nav-bar">
+        <ul class="nav-list">
+          <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </a>
+
+          <h1>Website todo</h1>
+        </ul>
+      </nav>
+
+      <section class="list-wrapper">
+        <label class="label-container"
+          >Style-guide creation
+          <input type="radio" checked="checked" name="radio" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="label-container"
+          ><s> Send Wire-frames</s>
+          <input type="radio" name="radio" />
+          <span class="checkmark"></span>
+          <i class="far fa-trash-alt"></i>
+        </label>
+        <label class="label-container"
+          >Readability about page
+          <input type="radio" name="radio" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="label-container"
+          >Check contrast color
+          <input type="radio" name="radio" />
+          <span class="checkmark"></span>
+        </label>
+      </section>
+
+      <div class="task-btn">
+        <i class="fas fa-plus">New Task</i>
+      </div>
+    </main>
+  </body>
+</html>
